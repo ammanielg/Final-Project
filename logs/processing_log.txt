@@ -1,0 +1,107 @@
+2025-01-22 23:20:55 - INFO - Successfully processed 7cm.root
+2025-01-22 23:20:55 - INFO - Successfully processed 2cm.root
+2025-01-22 23:20:55 - INFO - Successfully processed 11cm.root
+2025-01-22 23:20:55 - ERROR - Histogram 'htemp' not found in 12cm.root
+2025-01-22 23:20:56 - INFO - Successfully processed 10cm.root
+2025-01-22 23:20:56 - INFO - Successfully processed 4cm.root
+2025-01-22 23:20:56 - INFO - Successfully processed 5cm.root
+2025-01-22 23:20:56 - INFO - Successfully processed 6cm.root
+2025-01-22 23:20:56 - INFO - Successfully processed 3cm.root
+2025-01-22 23:20:56 - INFO - Successfully processed 8cm.root
+2025-01-22 23:20:57 - INFO - Successfully processed 9cm.root
+2025-01-22 23:20:57 - INFO - Successfully processed 1cm.root
+2025-01-22 23:20:57 - INFO - Successfully saved summary results to ../outputs/LEAD_OUTPUT/summary_results.csv
+2025-01-22 23:20:57 - INFO - Successfully processed 14cm.root
+2025-01-22 23:20:57 - INFO - Successfully processed 20cm.root
+2025-01-22 23:20:57 - INFO - Successfully processed 21cm.root
+2025-01-22 23:20:57 - INFO - Successfully processed 18cm.root
+2025-01-22 23:20:58 - INFO - Successfully processed 16cm.root
+2025-01-22 23:20:58 - INFO - Successfully processed 0cm.root
+2025-01-22 23:20:58 - INFO - Successfully processed 7cm.root
+2025-01-22 23:20:58 - INFO - Successfully processed 2cm.root
+2025-01-22 23:20:58 - INFO - Successfully processed 11cm.root
+2025-01-22 23:20:59 - INFO - Successfully processed 22cm.root
+2025-01-22 23:20:59 - INFO - Successfully processed 12cm.root
+2025-01-22 23:20:59 - INFO - Successfully processed 19cm.root
+2025-01-22 23:20:59 - INFO - Successfully processed 10cm.root
+2025-01-22 23:20:59 - INFO - Successfully processed 4cm.root
+2025-01-22 23:20:59 - INFO - Successfully processed 13cm.root
+2025-01-22 23:21:00 - INFO - Successfully processed 5cm.root
+2025-01-22 23:21:00 - ERROR - Error processing ROOT file 26cm.root: index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "/home/sinister/Desktop/Task 9/Git_work/Final_Project/scripts/full_analysis.py", line 223, in process_root_file
+    process_root_ttree(root_file, file_name,title, output_path, summary_data, num_bins)
+  File "/home/sinister/Desktop/Task 9/Git_work/Final_Project/scripts/full_analysis.py", line 128, in process_root_ttree
+    hist_min, hist_max = np.percentile(energy_data, [0.1, 99.9])
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4287, in percentile
+    return _quantile_unchecked(
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4676, in _quantile_unchecked
+    return _ureduce(a,
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 3764, in _ureduce
+    r = func(a, **kwargs)
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4853, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4975, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+
+2025-01-22 23:21:00 - WARNING - FWHM outside reasonable range, fit may be unreliable
+2025-01-22 23:21:00 - INFO - Successfully processed 23cm.root
+2025-01-22 23:21:00 - INFO - Successfully processed 6cm.root
+2025-01-22 23:21:00 - INFO - Successfully processed 15cm.root
+2025-01-22 23:21:00 - INFO - Successfully processed 3cm.root
+2025-01-22 23:21:00 - INFO - Successfully processed 17cm.root
+2025-01-22 23:21:00 - INFO - Successfully processed 8cm.root
+2025-01-22 23:21:01 - WARNING - FWHM outside reasonable range, fit may be unreliable
+2025-01-22 23:21:01 - INFO - Successfully processed 24cm.root
+2025-01-22 23:21:01 - INFO - Successfully processed 9cm.root
+2025-01-22 23:21:01 - INFO - Successfully processed 1cm.root
+2025-01-22 23:21:01 - WARNING - FWHM outside reasonable range, fit may be unreliable
+2025-01-22 23:21:01 - INFO - Successfully processed 25cm.root
+2025-01-22 23:21:01 - INFO - Successfully saved summary results to ../outputs/ROOT_30MNB5_OUTPUT/summary_results.csv
+2025-01-22 23:21:01 - INFO - Successfully processed 14cm.root
+2025-01-22 23:21:01 - INFO - Successfully processed 20cm.root
+2025-01-22 23:21:02 - INFO - Successfully processed 21cm.root
+2025-01-22 23:21:02 - INFO - Successfully processed 18cm.root
+2025-01-22 23:21:02 - INFO - Successfully processed 16cm.root
+2025-01-22 23:21:02 - INFO - Successfully processed 0cm.root
+2025-01-22 23:21:02 - INFO - Successfully processed 7cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 2cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 11cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 22cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 12cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 19cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 10cm.root
+2025-01-22 23:21:03 - INFO - Successfully processed 4cm.root
+2025-01-22 23:21:04 - INFO - Successfully processed 13cm.root
+2025-01-22 23:21:04 - INFO - Successfully processed 5cm.root
+2025-01-22 23:21:04 - WARNING - FWHM outside reasonable range, fit may be unreliable
+2025-01-22 23:21:04 - INFO - Successfully processed 23cm.root
+2025-01-22 23:21:04 - INFO - Successfully processed 6cm.root
+2025-01-22 23:21:04 - INFO - Successfully processed 15cm.root
+2025-01-22 23:21:04 - INFO - Successfully processed 3cm.root
+2025-01-22 23:21:05 - INFO - Successfully processed 17cm.root
+2025-01-22 23:21:05 - INFO - Successfully processed 8cm.root
+2025-01-22 23:21:05 - WARNING - FWHM outside reasonable range, fit may be unreliable
+2025-01-22 23:21:05 - INFO - Successfully processed 24cm.root
+2025-01-22 23:21:05 - INFO - Successfully processed 9cm.root
+2025-01-22 23:21:05 - INFO - Successfully processed 1cm.root
+2025-01-22 23:21:05 - ERROR - Error processing ROOT file 25cm.root: index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "/home/sinister/Desktop/Task 9/Git_work/Final_Project/scripts/full_analysis.py", line 223, in process_root_file
+    process_root_ttree(root_file, file_name,title, output_path, summary_data, num_bins)
+  File "/home/sinister/Desktop/Task 9/Git_work/Final_Project/scripts/full_analysis.py", line 128, in process_root_ttree
+    hist_min, hist_max = np.percentile(energy_data, [0.1, 99.9])
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4287, in percentile
+    return _quantile_unchecked(
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4676, in _quantile_unchecked
+    return _ureduce(a,
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 3764, in _ureduce
+    r = func(a, **kwargs)
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4853, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "/home/sinister/Desktop/Task 9/env/lib/python3.10/site-packages/numpy/lib/_function_base_impl.py", line 4975, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+
+2025-01-22 23:21:05 - INFO - Successfully saved summary results to ../outputs/ROOT_HY_OUTPUT/summary_results.csv
