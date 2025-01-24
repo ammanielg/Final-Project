@@ -1,6 +1,6 @@
 # Gamma Shielding Material Analysis: Lead, HY80, and 30MnB5
 
-This project aims to compare the gamma shielding properties of three materials—Lead, HY80, and 30MnB5—for potential applications in nuclear submarines. The analysis involves gamma spectroscopy to evaluate key parameters such as peak intensity, full width at half maximum (FWHM), and Compton edge stability across varying material thicknesses.
+This project aims to compare the gamma shielding properties of three materials—Lead, HY80, and 30MnB5—for potential applications in military ships. The analysis involves gamma spectroscopy to evaluate key parameters such as peak intensity, full width at half maximum (FWHM), and Compton edge stability across varying material thicknesses.
 
 ---
 
