@@ -22,3 +22,9 @@
 2025-01-24 19:14:57 - INFO - Gamma spectrum plot saved: ../outputs/HY80_gamma_spectrum.png
 2025-01-24 19:15:08 - ERROR - Error extracting data from file ../data/ROOT_30MNB5/26cm.root: index -1 is out of bounds for axis 0 with size 0
 2025-01-24 19:15:09 - INFO - Gamma spectrum plot saved: ../outputs/30MnB5_gamma_spectrum.png
+2025-01-30 02:01:40 - ERROR - No histogram found in TCanvas 'Canvas_1' for file ../data/LEAD/12cm.root.
+2025-01-30 02:01:41 - INFO - Gamma spectrum plot saved: ../outputs/Lead_gamma_spectrum.png
+2025-01-30 02:01:52 - ERROR - Error extracting data from file ../data/ROOT_HY/25cm.root: index -1 is out of bounds for axis 0 with size 0
+2025-01-30 02:01:52 - INFO - Gamma spectrum plot saved: ../outputs/HY80_gamma_spectrum.png
+2025-01-30 02:02:04 - ERROR - Error extracting data from file ../data/ROOT_30MNB5/26cm.root: index -1 is out of bounds for axis 0 with size 0
+2025-01-30 02:02:04 - INFO - Gamma spectrum plot saved: ../outputs/30MnB5_gamma_spectrum.png

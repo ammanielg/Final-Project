@@ -73,8 +73,12 @@ This project aims to compare the gamma shielding properties of three materialsâ€
 2. Clone the repository:
     ```bash
     git clone https://github.com/ammanielg/Final_Project.git
-    cd gamma-shielding-analysis
-    code notebooks/main.ipynb
+    cd Final_Project
+    conda create --name root_env python=3.11 -y
+    conda activate root_env
+    pip install -r requirements.txt
+    conda install -c conda-forge root -y
+    code .
 
-3. You can use anyother notebook viewer to open it the main.ipynb file.
+3. Navigate to notebooks/main.ipynb and open it.
 
