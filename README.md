@@ -72,7 +72,7 @@ This project aims to compare the gamma shielding properties of three materialsâ€
 
 2. Clone the repository:
     ```bash
-    git clone https://github.com/ammanielg/gamma-shielding-analysis.git
+    git clone https://github.com/ammanielg/Final_Project.git
     cd gamma-shielding-analysis
     code notebooks/main.ipynb
 
